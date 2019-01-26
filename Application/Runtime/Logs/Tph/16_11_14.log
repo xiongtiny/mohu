@@ -1,0 +1,983 @@
+[ 2016-11-14T09:51:54+08:00 ] 127.0.0.1 /TPH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000739s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined variable: content D:\WWW\biyesheji\Application\Runtime\Cache\TPH\95bed1c9dfb384565b387e1a02173d11.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-11-14T09:51:55+08:00 ] 127.0.0.1 /index.php/TPH/Index/checkVersion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [2] file_get_contents():  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] file_get_contents(http://zhuanqianfish.github.io/ThinkphpHelper/version.txt):  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-11-14T09:51:57+08:00 ] 127.0.0.1 /index.php/TPH/CreateM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: select table_name from information_schema.tables where table_schema='mohu' and table_type='base table' [ RunTime:0.0012s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::getDirList() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CreateMController.class.php 第 83 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\WWW\biyesheji\Application\TPH\Controller\CreateMController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-11-14T09:51:57+08:00 ] 127.0.0.1 /index.php/TPH/Index/checkVersion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [2] file_get_contents():  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] file_get_contents(http://zhuanqianfish.github.io/ThinkphpHelper/version.txt):  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-11-14T09:51:57+08:00 ] 127.0.0.1 /index.php/TPH/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载控制器:Href=
+
+[ 2016-11-14T10:01:32+08:00 ] 127.0.0.1 /TPH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: content D:\WWW\biyesheji\Application\Runtime\Cache\TPH\95bed1c9dfb384565b387e1a02173d11.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-11-14T10:01:32+08:00 ] 127.0.0.1 /index.php/TPH/Index/checkVersion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2] file_get_contents():  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] file_get_contents(http://zhuanqianfish.github.io/ThinkphpHelper/version.txt):  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-11-14T10:01:35+08:00 ] 127.0.0.1 /index.php/TPH/CRUD/crud
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: select table_name from information_schema.tables where table_schema='mohu' and table_type='base table' [ RunTime:0.0006s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-11-14T10:01:36+08:00 ] 127.0.0.1 /index.php/TPH/CRUD/crud
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: select table_name from information_schema.tables where table_schema='mohu' and table_type='base table' [ RunTime:0.0004s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-11-14T10:01:36+08:00 ] 127.0.0.1 /index.php/TPH/Index/checkVersion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2] file_get_contents():  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] file_get_contents(http://zhuanqianfish.github.io/ThinkphpHelper/version.txt):  D:\WWW\biyesheji\Application\TPH\Controller\IndexController.class.php 第 32 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-11-14T10:01:36+08:00 ] 127.0.0.1 /index.php/TPH/CRUD/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: 非法操作:href=
+
+[ 2016-11-14T10:01:41+08:00 ] 127.0.0.1 /index.php/TPH/CRUD/creatAllFiles/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.002023s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001406s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001626s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003660s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001371s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003279s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001185s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004681s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_admin' [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.024024s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005900s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.019358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.025012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.028146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002937s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.025603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.028288s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_admin' [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.037440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004762s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.033475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.037987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.041206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002988s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.038574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.041342s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_admin' [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.048804s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002945s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.046064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.048724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.051052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001757s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.049221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.050691s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.056681s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001424s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.055113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.056255s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.058246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001274s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.056738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.057724s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.059763s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001392s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.058205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.059315s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.061287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001248s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.059796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.060756s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_article' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.067118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003200s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.064069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.066985s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.069217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001523s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.067431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.068666s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_article' [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.074670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002486s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.072152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.074350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.076571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001491s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.074793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.075990s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_article' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.082027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002831s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.079292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.081826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.084046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001725s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.082298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.083728s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.088195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001152s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.086757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.087615s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.089481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001088s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.088076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.088868s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.090761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001178s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.089329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.090211s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.092065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001067s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.090672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.091443s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_class' [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.097454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002674s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.094736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.097115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.099168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001381s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.097545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.098630s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_class' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.104337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002198s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.102056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.103960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.106041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001381s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.104391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.105476s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_class' [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.110866s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002479s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.108427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.110612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.112833s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001509s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.111100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.112316s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 201 行.
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.116690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001190s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.115261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.116157s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.118027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001122s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.116619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.117446s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.119346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001239s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.117916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.118859s ]
+NOTIC: [8] Undefined variable: operateTitle D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.120720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001129s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.119322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.120154s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_page' [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.126357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002670s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.123665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.126041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.128097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001315s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.126471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.127490s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_page' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.133180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002295s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.130884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.132886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.134981s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001348s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.133318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.134371s ]
+SQL: select * from information_schema.columns where table_schema='mohu' and table_name='nww_page' [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.140233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002514s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.137787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.140007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:-1.142154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001424s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.140485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.141615s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CRUDController.class.php 第 201 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-11-14T10:02:33+08:00 ] 127.0.0.1 /index.php/TPH/CreateM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: select table_name from information_schema.tables where table_schema='mohu' and table_type='base table' [ RunTime:0.0008s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::getDirList() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CreateMController.class.php 第 83 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\WWW\biyesheji\Application\TPH\Controller\CreateMController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-11-14T10:02:35+08:00 ] 127.0.0.1 /index.php/TPH/Index/checkVersion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-11-14T10:02:38+08:00 ] 127.0.0.1 /index.php/TPH/CreateM/creatFiles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CreateMController.class.php 第 38 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 192 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 182 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::copyFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 190 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::createDir() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\FileUtil.class.php 第 216 行.
+NOTIC: [2048] Non-static method TPH\Controller\FileUtil::unlinkFile() should not be called statically, assuming $this from incompatible context D:\WWW\biyesheji\Application\TPH\Controller\CreateMController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-11-14T17:21:16+08:00 ] 127.0.0.1 /TPH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: content D:\WWW\biyesheji\Application\Runtime\Cache\TPH\95bed1c9dfb384565b387e1a02173d11.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-11-14T17:21:20+08:00 ] 127.0.0.1 /index.php/TPH/Index/checkVersion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Use of undefined constant SQLITE_COLUMN_NAME_KEY - assumed 'SQLITE_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 4 行.
+NOTIC: [8] Use of undefined constant MYSQL_COLUMN_NAME_KEY - assumed 'MYSQL_COLUMN_NAME_KEY' D:\WWW\biyesheji\Application\TPH\Common\function.php 第 5 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+

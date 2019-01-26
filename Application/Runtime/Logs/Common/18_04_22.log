@@ -1,0 +1,42 @@
+[ 2018-04-22T16:21:00+08:00 ] 127.0.0.1 /mohu/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+ERR: 无法加载模块:Js
+
+[ 2018-04-22T16:21:00+08:00 ] 127.0.0.1 /mohu/js/sl.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+ERR: 无法加载模块:Js
+
+[ 2018-04-22T16:21:07+08:00 ] 127.0.0.1 /mohu/index.php/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+ERR: 无法加载模块:Href=
+
+[ 2018-04-22T16:21:13+08:00 ] 127.0.0.1 /mohu/index.php/Article/editByCid/id/1/cid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+ERR: 无法加载模块:Article
+
+[ 2018-04-22T16:21:20+08:00 ] 127.0.0.1 /mohu/index.php/Article/editByCid/id/1/cid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+ERR: 无法加载模块:Article
+
+[ 2018-04-22T16:22:19+08:00 ] 127.0.0.1 /mohu/index.php/Article/editByCid/id/7/cid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+ERR: 无法加载模块:Article
+
+[ 2018-04-22T16:23:21+08:00 ] 127.0.0.1 /mohu/index.php/Article/editByCid/id/2/cid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+ERR: 无法加载模块:Article
+

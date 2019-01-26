@@ -1,0 +1,207 @@
+[ 2018-04-23T06:14:17+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Article/listByCid/cid/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+SQL: SHOW COLUMNS FROM `nww_article` [ RunTime:0.0705s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nww_article` WHERE `class_id` = 0 LIMIT 1   [ RunTime:0.0059s ]
+SQL: SELECT * FROM `nww_article` WHERE `class_id` = 0 LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.174557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004521s ]
+
+[ 2018-04-23T06:14:23+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Admin/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+SQL: SHOW COLUMNS FROM `nww_admin` [ RunTime:0.1214s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in F:\phpStudy\PHPTutorial\WWW\mohu\Application\Admin\Controller\AdminController.class.php on line 31 and defined F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nww_admin` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in F:\phpStudy\PHPTutorial\WWW\mohu\Application\Admin\Controller\AdminController.class.php on line 34 and defined F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where F:\phpStudy\PHPTutorial\WWW\mohu\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `nww_admin` LIMIT 0,15   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\67fca73b0e4e2444ce5ac4658b0bcccc.php 第 178 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\67fca73b0e4e2444ce5ac4658b0bcccc.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2018-04-23T06:14:23+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Admin/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+ERR: 非法操作:href=
+
+[ 2018-04-23T06:14:26+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Admin/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `nww_admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `nww_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003152s ]
+
+[ 2018-04-23T06:14:27+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Admin/edit/id/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+SQL: SHOW COLUMNS FROM `nww_admin` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `nww_admin` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2018-04-23T06:14:32+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002577s ]
+
+[ 2018-04-23T06:14:39+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Article/listByCid/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003414s ]
+SQL: SHOW COLUMNS FROM `nww_article` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nww_article` WHERE `class_id` = 4 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `nww_article` WHERE `class_id` = 4 LIMIT 0,15   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 180 行.
+NOTIC: [8] Use of undefined constant class_id - assumed 'class_id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 181 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 180 行.
+NOTIC: [8] Use of undefined constant class_id - assumed 'class_id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 181 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 180 行.
+NOTIC: [8] Use of undefined constant class_id - assumed 'class_id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' F:\phpStudy\PHPTutorial\WWW\mohu\Application\Runtime\Cache\Admin\10efc43044c0195752d153a8a5224867.php 第 181 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005611s ]
+
+[ 2018-04-23T06:14:41+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Article/listByCid/cid/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `nww_article` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nww_article` WHERE `class_id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `nww_article` WHERE `class_id` = 0 LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003624s ]
+
+[ 2018-04-23T06:15:03+08:00 ] 127.0.0.1 /mohu/index.php/Admin/Article/listByCid/cid/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+SQL: SHOW COLUMNS FROM `nww_article` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nww_article` WHERE `class_id` = 0 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `nww_article` WHERE `class_id` = 0 LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003380s ]
+

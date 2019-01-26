@@ -1,0 +1,17 @@
+<div class="nav">
+      <div class="h1 h2"></div>
+          <ul style="padding-left:0;">
+           <li> &nbsp;&nbsp;&nbsp;<span id="font"><a href="{:U('Home/Article/listByCid/cid/4')}">更多》</a></span></li>
+           <volist name="articleList4" id="vo4">
+           	<li><a href="{:U('Home/Article/peoplePage',array('id'=>$vo4[id]))}">{$vo4.title}</a></li>
+           </volist>
+           
+           
+          </ul>
+                <div class="h1 h3"></div>
+          <ul style="padding-left:0;">
+           <li><a href="#">第一届学术委员会名单</a></li>
+           <li><a href="#">理事会名单</a></li>
+          </ul>
+
+      </div>

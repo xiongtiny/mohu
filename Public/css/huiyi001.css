@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.middle ul li{
+	float:left;
+	height:60px;
+	width:450px;
+	text-align:center;
+	background-color:#AC992D;
+	list-style:none;
+	border-radius:20px;
+	margin:20px;
+	padding-top:30px;
+	font-family:"黑体";
+	}
+.re{ float:left;
+      width:400px;
+	  margin-left:200px;}
+.le{ float:left;
+      width:400px;
+	  }
+.lie{ width:1200px;
+       margin:0 auto;
+	   height:560px;
+	   }
+.lie a:link{
+	text-decoration:none;
+	color:#03C;
+	float:right;
+	}
+.lie a:hover{
+	text-decoration:none;
+	color:#EB697C;
+	float:right;
+	}
+#bottom{
+	clear:both;
+	width:350px;
+	height:50px;
+	text-align:center;}
+#bottom p{
+	float:left;
+	width:50px;
+	height:50px;
+	background-color:#CCC;
+	text-align:center;
+	vertical-align:middle;
+	margin-right:40px;
+	line-height:50px;
+	border-radius:10px;}

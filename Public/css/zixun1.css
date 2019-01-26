@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	width:1200px;
+	height:630px;
+	margin:0 auto;}
+.nav{
+	width:350px;
+	height:600px;
+	float:left;
+	background-color:#E4E4E4;
+	}
+	
+.nav li{
+	border-bottom:dashed #666 1px;
+	list-style:none;
+	text-align:center;
+	}
+.nav a{
+	text-decoration:none;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:12px;
+	line-height:32px;
+	}
+.nav a:hover{
+	text-decoration:none;
+	color:#FB027E;
+}
+#font a{
+	color:#00F;
+	margin-top:15px;
+	float:right;}
+#font a:hover{
+	text-decoration:none;
+	color:#FB027E;
+}	
+
+.navRight{
+	width:800px;
+	float:left;
+	margin-left:40px;}
+.funa{
+	background-color:#E4E4E4;
+	height:300px;}
+
+
+
+.h1{
+	background-repeat:no-repeat;
+	height:40px;
+	clear:both;}
+.h2{
+	background-image:url(../img/zx1.png);}
+.h3{background-image:url(../img/fengcai1.png);}
+.h4{
+	float:left;
+	height:220px;
+	width:40px;
+	margin-top:50px;
+	background-image:url(../img/zhuzuo1.jpg);
+	background-repeat:no-repeat;
+	clear:both;}
+#banner{
+	float:left;
+	width:760px;
+	margin-top:50px;
+	background-color:#E4E4E4;
+	height:220px;}
+
+
+
+
+
+
+
+
+
+
+

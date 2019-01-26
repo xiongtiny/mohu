@@ -1,0 +1,31 @@
+/*body{font-family:Lato,'Open Sans', sans-sarif; font-size:16px; }
+*{margin: 0; padding: 0; box-sizing: border-box;}*/
+.container{margin: 0 auto; max-width: 800px;}
+
+/*= common css to all effects =*/
+.single-member{width: 200px; float:left; margin:20px; background-color: #fff; text-align: center; position: relative;}
+.member-image img{max-width: 100%; vertical-align: middle;}
+h3 {font-size: 24px; font-weight: normal; margin: 30px 0 0; text-transform: uppercase;}
+h3 a{color:#000;}
+h3 a:hover{color:#FB027E;}
+h5 {font-size: 16px; font-weight: 200; margin: 0 0 5px; line-height:25px;}
+p {font-size: 14px; font-weight: 200; line-height: 15px; padding: 0; margin-bottom: 5px;}
+
+
+
+/*= effect-3 css =*/
+.effect-3{max-height: 250px; min-height: 250px; overflow: hidden;}
+.effect-3 h3{padding-top: 7px; line-height:20px;}
+.effect-3 .member-image{border-bottom: 5px solid #e5642b; transition: 0.4s; height: 155px; width: 100%; display: inline-block; float: none; vertical-align: middle;}
+.effect-3 .member-info{transition: 0.4s;}
+.effect-3 .member-image img{width: 100%; vertical-align: bottom;}
+.effect-3 .social-touch{background-color:#e5642b; float: left; left: 0; bottom: 0; overflow: hidden; padding: 5px 0; width: 100%; transition: 0.4s;}
+.effect-3:hover .member-image{border-bottom: 0; border-radius: 0 0 50px 50px; height: 81px; display: inline-block; overflow: hidden; width: 100px; transition: 0.4s;}
+/*= effect-3 css end =*/
+@media only screen and (max-width: 980px){
+	.row{width: 100%; margin:800px 0;}
+	.team-members{text-align: center;}
+	.single-member{float: none; display: inline-block; vertical-align: bottom;}
+}
+/*= Media Query End
+=================== */

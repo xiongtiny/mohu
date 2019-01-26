@@ -1,0 +1,87 @@
+<script>
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content"]', {
+				cssPath : '__PUBLIC__/kindeditor-4.1.7/plugins/code/prettify.css',
+				uploadJson : '__PUBLIC__/kindeditor-4.1.7/php/upload_json.php',
+				fileManagerJson : '__PUBLIC__/kindeditor-4.1.7/php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=example]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=example]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
+<div class="container ">
+<div class="row">
+	<div class="col-md-12">
+		<div class="widget">
+			<div class="widget-head">
+			  <div class="pull-left" height="80">
+			  新建文章			  </div>
+			  <div class="widget-icons pull-right">
+				<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a> 
+				<a href="#" class="wclose"><i class="icon-remove"></i></a>
+			  </div>  
+			  <div class="clearfix"></div>
+			</div>  
+			<div class="widget-content" >
+			<div class="padd">
+				<div class="form quick-post">
+							  <div class="form-horizontal">                        
+								  <div class="form-group">
+									<form class="form-horizontal" method="post" enctype="multipart/form-data">
+									<input type="hidden" name="class_id" id="class_id" value="{$class_id}" />
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="title">标题</label>
+		<div class="col-md-6">
+			<input type="text" class="form-control" placeholder="标题" name="title" id="title" />
+		</div>
+	</div>	
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="auther">作者</label>
+		<div class="col-md-6">
+			<input type="text" class="form-control" placeholder="作者" name="auther" id="auther" />
+		</div>
+	</div>	
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="title">封面图</label>
+		<div class="col-md-6">
+			<input type="file" name="lpic" id="lpic" value="" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="description">简要描述</label>
+		<div class="col-md-6">
+			<input type="text" class="form-control" placeholder="简要描述" name="description" id="description" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-md-2 control-label" for="content">内容</label>
+		<div class="col-md-10">
+			<textarea name="content" id="content" style="width:700px;height:600px;visibility:hidden;">
+			</textarea>
+		</div>
+	</div>	
+	<div class="form-group">
+		<div class="col-md-2 col-md-offset-2">
+			<input type="submit" value="提交" class="btn btn-default" />
+		</div>
+	</div>
+</form>								  </div>              
+							  </div>
+				</div><!--end  paddad-->
+			</div>
+		</div>	
+		</div>	
+	</div>
+</div>
+</div>

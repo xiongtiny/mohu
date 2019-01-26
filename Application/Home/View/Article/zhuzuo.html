@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>著作</title>
+	<link rel="stylesheet" href="__PUBLIC__/dist/css/material-photo-gallery.css">
+    <link href="__PUBLIC__/css/all.css" rel="stylesheet" type="text/css"/>
+
+	<style>
+	.m-p-g{margin-top: 20px;}		
+	</style>
+</head>
+<body>
+
+<div class="bigBox">
+ 
+  <div id="width">
+  <div class="shoub">中国语文现代化学会</div>
+  <div class="shouc">模糊语言研究会</div>
+	</div>
+  <!--导航栏-->
+    <include file="Public/menu" />
+    <!--导航栏结束-->
+    
+    
+        
+    <!--位置-->
+    <table>
+     <tr><td><img src="__PUBLIC__/img/wei.png" /></td><td>当前位置:</td><td class="wei"><a href="index.html">主页></a></td><td class="wei"><a href="zhuzuo.html">模糊语言著作></a></td></tr>
+    </table>
+    
+    <!--位置结束-->
+    
+<div id="content">
+		<div class="m-p-g">
+			<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+				<volist name="articleList6" id="voa6">
+		            <!--<a href="{:U('Home/Article/zhuzuoPage', array('id'=>$voa6[id]))}">
+		            	<img src="{$voa6.lpic}" alt="jsfoot" />
+		            </a-->	
+		        	<img src="{$voa6.lpic}" data-full="{$voa6.lpic}" class="m-p-g__thumbs-img" />
+				</volist>
+                
+				
+			</div>
+
+		<div class="m-p-g__fullscreen"></div>
+		</div>
+</div>	
+	<script src="__PUBLIC__/dist/js/material-photo-gallery.js"></script>
+	<script>
+		var elem = document.querySelector('.m-p-g');
+
+		document.addEventListener('DOMContentLoaded', function() {
+			var gallery = new MaterialPhotoGallery(elem);
+		});
+	</script>
+    
+    
+        <!--版权-->
+    <include file="Public/footer" />
+    <!--版权结束--> 
+</div>
+</body>
+</html>

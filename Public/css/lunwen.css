@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.zhengwen{font-family:"微软雅黑";
+          width:1200px;
+		  margin:auto;}
+#leftBar{border:1px solid #FCF;
+         float:left;
+		 height:auto;
+		 margin:auto;
+		 width:250px;}
+.Note{
+	background-image:url(../img/lab2.png);
+	background-repeat:no-repeat;
+	border-bottom:1px solid #FFF;
+	width:250px;
+	padding:6px 0;}
+.li_style{
+	width:250px;
+	background-color:#E6E2E6;
+    border-bottom:1px solid #FFF;
+	padding:6px 0;}
+#leftBar .li_style a:hover{color:#F06;}
+
+#rightBar{
+	margin-left:45px;
+	width:900px;
+	background-color:#E6E2E6;
+	float:left;}
+.h1{
+	width:640px;
+	padding-left:20px;
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+	margin-left:40px;
+	height:40px;
+	color:#FFFFFF;
+	clear:both;
+	margin-top: 10px;}
+.h2{background-image:url(../img/lun1.png);}
+.h3{background-image:url(../img/lun2.png);}
+.h4{background-image:url(../img/lun3.png);}
+.h5{background-image:url(../img/lun4.png);}
+.h6{background-image:url(../img/lun5.png);}
+#rightBar ul {
+list-style-type:none;  margin-top:-15px; margin-left:20px; margin-bottom:40px; color:#000000;padding:0 20px 0 20px; line-height:20px;}
+#rightBar li {line-height:30px;}
+#content{
+	width:60px;
+	margin-left:800px;
+	}
+#content a{color:#000;}
+#content a:hover{color:#F06;}
+.litterBar a{color:#000;}
+.litterBar li a:hover{color:#FB027E;}
+#leftBar a:hover{color:#FFF;}
+
+
+
+
+

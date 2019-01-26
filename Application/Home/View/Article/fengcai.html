@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="__PUBLIC__/css/all.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/css/fcai.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/css/fcai1.css" rel="stylesheet" type="text/css"/>
+<title>会员风采</title>
+</head>
+
+<body>
+    
+<div class="bigBox">
+
+    <div id="width">
+  <div class="shoub">中国语文现代化学会</div>
+  <div class="shouc">模糊语言研究会</div>
+	</div>
+    
+    <!--导航栏-->
+    <include file="Public/menu" />
+    <!--导航栏结束-->
+         
+    
+    <div class="content">
+    <!--位置-->
+    <table>
+     <tr><td><img src="__PUBLIC__/img/wei.png" /></td><td>当前位置:</td><td class="wei"><a href="index.html">主页></a></td><td class="wei"><a href="fengcai.html">会员风采></a></td></tr>
+    </table>
+    <!--位置结束-->
+
+       <include file="Public/pageLeft" />
+		
+       <div class="rightNav">
+       
+       <div class="h4"></div>
+       <div style="width:1000px; height:500px;background-color:#E4E4E4; margin:0 auto;">
+       <div id="font"><a href="#">更多》</a></div>
+	       <volist name="articleList4" id="voa4">
+				<div class="wrap"> 
+				<a href="#x"> <img src="{$voa4.lpic}" alt='{$voa4.title}' />
+				  <p><span>{$voa4.auther}
+				    <br />
+				   {$voa4.title}</span> </p>
+				  </a> </div>
+				<!-- end wrap -->
+			</volist>
+
+  		</div>
+       </div>
+</div>
+<div class="clear">
+	
+</div>
+
+
+    <!--版权-->
+    <include file="Public/footer" />
+    <!--版权结束--> 
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.div,id,p,h2,ul,li{ margin:0px; padding:0px;}
+.word{ width:1200px; margin:0 auto; line-height:40px; }
+.dangqian{height:50px; text-align:center;}
+.dang{float:left;}
+.imma{ padding-top:7px; float:left;}
+.dang a:link{ color:#000; text-decoration:none;}
+.dang a:hover{ color:#DF2D9C;}
+.title{ text-align:center; height:450px;font-family:"微软雅黑";}
+.speak{ text-indent:2em;
+        font-size:18px;
+		font-family:"微软雅黑";
+}
+.liti{ font-size:19px; font-weight:600;}
+.date{ text-align:right;}
+.titt{ height:100px; text-align:center;}
+.ima{ margin:10px auto; height:350px; width:1000px;}
+.biima{ float:left; margin-left:100px;}

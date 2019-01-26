@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+ body{
+	margin:0 auto;
+	width:100%;
+	padding:0;
+	font-family:"黑体";
+	}
+ .bigBox{
+		margin:0 auto;
+		padding:0;
+		background-image:url(../img/shouye1.png);
+		background-size:cover;
+		width:100%;
+		width:expression(document.body.clientWidth <= 1200? "1200px": "auto");
+		height:250px;
+		min-width:1300px;
+		}
+.banner table td{font-size:20px;}
+a{color:#FFFFFF;text-decoration: none;outline: none;}
+a:hover{color:#FB027E;}
+.wei a{
+	text-decoration:none;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:12px;
+	}
+.wei a:hover,.wei a:focus{
+	text-decoration:none;
+	color:#FB027E;
+}
+
+#width{
+	width:1200px;
+	margin:auto;
+	padding:0;
+	vertical-align:middle;
+	text-align:center;}
+	.shoub{
+		margin:0 auto;
+		padding:0;
+		padding-top:120px;
+		padding-right:20px;
+		font-size:30px;
+		color: #88631E;
+		letter-spacing:8px;}
+	.shouc{
+		font-size:54px;
+		color:#B93A27;
+		font-weight:bold;
+		padding-top:1.3%;
+		padding-left:150px;
+		letter-spacing:10px;}
+	.banner{
+		border:1px solid #FFF;
+		background-color:#C4BBB6;
+		width:100%;
+		}
+		.enda{
+		background-color:#3F3939;
+		height:46px;
+		color:#FFF;
+		font-family:"微软雅黑";
+		}
+    .font{
+		font-size:8px;
+		vertical-align:middle;}
+		
+.clear{
+	clear: both;
+}

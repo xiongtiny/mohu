@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>咨询详情</title>
+<link href="__PUBLIC__/css/all.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/css/zixun1.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/css/zixun2.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/css/demo1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery.1.4.2-min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/scroller.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".demo1").scroller();
+});
+</script>
+
+</head>
+
+<body>
+<div class="bigBox">
+ 
+  <div id="width">
+  <div class="shoub">中国语文现代化学会</div>
+  <div class="shouc">模糊语言研究会</div>
+	</div>
+
+    <!--导航栏-->
+    <include file="Public/menu" />
+    <!--导航栏结束-->
+     
+    <!--位置-->
+    <table>
+     <tr><td><img src="__PUBLIC__/img/wei.png" /></td><td>当前位置:</td><td class="wei"><a href="/">主页></a></td><td class="wei"><a href="{:U('Home/Article/listByCid/cid/2')}">动态资讯></a></td></tr>
+    </table>
+    <!--位置结束-->
+    
+   
+    <div class="content">
+    
+      <div class="nav">
+      <div class="h1 h2"></div>
+  <marquee behavior="alternate" width="350" height="500" onmouseout="this.start()" onmouseover="this.stop()" direction="up" scrollamount="1" align="absmiddle">
+          <ul style="padding-left:0;">
+           <volist name="articleList" id="vo">
+                <li><a href="{:U('/Home/Article/show', array('id'=>$vo[id]))}">{$vo.title}</a></li>
+			</volist>
+          </ul>
+ </marquee> 
+          <div id="font"><a href="{:U('Home/Article/listByCid/cid/2')}">更多》</a></div>
+      </div>
+      
+      <div class="navRight">
+         <div class="h1 h3" id="font"><a href="{:U('Home/Article/listByCid/cid/4')}">更多》</a></div>
+         <div class="funa">
+        	
+            <!--会员风采图片-->
+            <div class="htmleaf-container">
+		<div class="full-length">
+		    <div class="container">
+		    <!-- Team members structure start -->
+		    	<div class="team-members row">
+		            <volist name="articleList4" id="voa4">
+		            	<div class="single-member effect-3">
+			            	<div class="member-image">
+			                	<img width="200" height="182" src="{$voa4.lpic}" alt="{$voa4.title}">
+			                </div>
+			                <div class="member-info">
+			                	<h3><a href="{:U('Home/Article/peoplePage/',array('id'=>$voa4[id]))}">{$voa4.title}</a></h3>
+			                    <p>{$voa4.description}</p>
+			                </div>
+			            </div>
+		            </volist>
+                    		            
+		        </div>
+		    <!-- Team members structure start -->
+		    </div>
+		</div>
+	       </div>
+            <!--会员风采结束-->
+            
+              <div class="h4"></div>
+              <div id="banner">
+              	<div id="content">
+                                <div id="font"><a href="zhuzuo.html">更多》</a></div>
+		<div class="scroller demo1">
+        
+			<div class="inside">
+				<volist name="articleList6" id="voa6">
+		            <a href="{:U('Home/Article/zhuzuoPage', array('id'=>$voa6[id]))}"><img src="{$voa6.lpic}" alt="jsfoot" /></a>	
+		        </volist>
+				
+			</div>
+            
+		</div>
+	  </div>
+      
+      </div>
+      
+      </div>
+    </div>  
+    </div>    
+    
+    <!--版权-->
+    <include file="Public/footer" />
+    <!--版权结束-->
+    
+</div>
+</body>
+</html>

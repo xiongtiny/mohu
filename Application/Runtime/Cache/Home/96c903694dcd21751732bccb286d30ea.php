@@ -1,0 +1,167 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>入会指南</title>
+<link href="/Public/css/all.css" rel="stylesheet" type="text/css"/>
+<link href="/Public/css/huiyuanzhinan.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="bigBox">
+ 
+  <div id="width">
+  <div class="shoub">中国语文现代化学会</div>
+  <div class="shouc">模糊语言研究会</div>
+	</div>
+    
+    <!--导航栏-->
+   <div class="banner">
+<table  height="30px" id="width" rules=cols frame="vsides" bordercolor="#666666">
+  <tr>
+    <td width="80px"><a href="/">首页</a></td>
+    <td width="130px"><a href="<?php echo U('Home/Page/show/title/zuzhi');?>">组织机构</a></td>
+    <td width="225px"><a href="<?php echo U('Home/Article/listByCid/cid/2');?>">研究会动态·资讯</a></td>
+    <td width="130px"><a href="<?php echo U('Home/Page/show/title/zhinan');?>">入会指南</a></td>
+    <td width="130px"><a href="<?php echo U('Home/Article/listByCid/cid/4');?>">会员风采</a></td>
+    <td width="150px"><a href="<?php echo U('Home/Article/listByCid/cid/5');?>">研究会会议</a></td>
+    <td width="170px"><a href="<?php echo U('Home/Article/listByCid/cid/6');?>">模糊语言著作</a></td>
+    <td><a href="<?php echo U('Home/Article/listByCid/cid/7');?>">模糊语言论文</a></td>
+  </tr>
+</table>
+</div>
+    <!--导航栏结束-->
+    
+    
+    <!--位置-->
+    <table>
+     <tr><td><img src="/Public/img/wei.png" /></td><td>当前位置:</td><td class="wei"><a href="/">主页></a></td><td class="wei"><a href="<?php echo U('Home/Page/show/',array('title' => 'zhinan'));?>">入会指南></a></td></tr>
+    </table>
+    
+    <!--位置结束-->
+    <div id="width">
+       <div class="taB tbB">
+          <table cellspacing="30px" style="text-align:left;">
+            <tr>
+              <td width="50px"><span style="font-size:36px;">入会指南</span></td>
+              <td>
+              <span style="font-size:15px;">根据中国语文现代化学会章程"第三章会员"的规定，并结合本研究会的具体情况，特制定本申请入会指南。<br />
+一、会员种类：<br />
+本研究会的会员种类为个人会员。<br />
+二、入会条件：<br />
+申请加入本研究会的会员，必须具备下列条件:<br />
+(一)有加入本研究会的意愿；拥护中国语文现代化学会的章程。<br />
+(二)在模糊语言学科领域内具有一定的学术成果；一般为讲师以上(或相当职称)的专业人员。<br />
+三、入会程序：<br />
+(一)提交入会申请书(申请书有本研究会一名理事签名介绍)。<br />
+(二)经理事会或理事会所委托的本会其他机构批准，均可成为会员。<br />
+四、会员的权利与义务：<br />
+（一）享有选举权、被选举权和表决权。<br />
+（二）参加本会的活动。<br />
+（三）对本会的工作提出建议和批评。<br />
+（四）维护本会的合法权益。<br />
+（五）可参与本研究会的论文评奖活动。<br />
+（六）可入选本研究会网站的"会员风采"栏目。<br />
+（七）入会自愿、退会自由。会员退会应书面通知学会秘书处；会员如果不按规定交纳会费或连续两次不参加学会活动，视为自动退会；会员如有严重违反本会章程的行为，经常务理事会表决通过，予以除名。<br />
+（八）按规定交纳会费。按一届4年收取会费，一次性缴纳200元（在读硕士研究生100元）。只有交纳了会费，才能成为会员并享受上述会员的权利与义务。
+会员可以在参加"中国模糊语言学术研讨会"时现场缴纳会费，或通过邮政汇款。如通过邮政汇款，请在汇款单上写清有效的汇款人地址和电话，并在附言注明"会费"和会员姓名。<br />
+地址：黄石市：湖北师范大学文学院
+邮　编：435002<br />
+收款人：黎千驹</span>
+          </td>
+            </tr>
+          </table>
+       </div>
+       <div class="taB">
+          <table width="2px" height="550px">
+           <tr> <td style="border-color:#F69; border-left-style:dashed; border-width:2px;"></td></tr>
+          </table>
+       </div>
+       <div class="taB" style="margin-left:20px; margin-top:59px;">
+         <table cellspacing="0" style="width:370px;">
+           <tr><td style="background-color: #ECCA9B;height:35px;">入会申请表</td></tr>
+           <tr>
+             <td style="background-color: #F3EFED;">
+               <table border="1" cellspacing="0" cellpadding="1px">
+  <tr height="50px">
+    <td width="50px">姓名</td>
+    <td width="50px">&nbsp;</td>
+    <td width="50px">性别</td>
+    <td width="50px">&nbsp;</td>
+    <td width="50px">出生年月</td>
+    <td width="50px">&nbsp;</td>
+    <td rowspan="3" width="50px">图片</td>
+  </tr>
+  <tr height="50px">
+    <td width="50px">行政职务</td>
+    <td>&nbsp;</td>
+    <td width="50px">专业职务</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr height="50px">
+    <td width="50px">最后学位</td>
+    <td>&nbsp;</td>
+    <td width="50px">担任导师</td>
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr height="50px">
+    <td>工作单位</td>
+    <td colspan="6">&nbsp;</td>
+  </tr>
+  <tr height="50px">
+    <td>通讯地址</td>
+    <td colspan="3">&nbsp;</td>
+    <td>邮编</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr height="50px">
+    <td>E-mail</td>
+    <td colspan="3">&nbsp;</td>
+    <td>手机</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr height="50px">
+    <td>主要科研成果</td>
+    <td colspan="6">&nbsp;</td>
+  </tr>
+  <tr height="50px">
+    <td>介绍人意见</td>
+    <td colspan="6" style=" vertical-align:bottom;">介绍人签名： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;年 月 日</td>
+  </tr>
+  <tr height="50px">
+    <td>入会时间</td>
+    <td colspan="6"> 年 月 日经语言模糊研究会常务理事会第&nbsp; 次会议讨论批准。 </td>
+  </tr>
+    <tr height="50px">
+    <td>交纳会费记录</td>
+    <td colspan="6"> 年 月 日 交纳会费&nbsp;&nbsp; 元</td>
+  </tr>
+
+</table>
+
+             </td>
+           </tr>
+         </table>
+       </div>
+ <div id="font"><a href="/Public/模糊语言研究会入会申请表.doc">↓点击下载</a></div>
+    </div>
+
+      <!--版权-->
+    <div class="enda">
+       <table align="center">
+          <tr>
+            <td class="font">地址：湖北省黄石市磁湖路11号</td>
+            <td class="font">邮编：435002</td>
+            <td class="font">电话：0714-6573971</td>
+            <td class="font">传真：0714-6573971</td>
+          </tr>
+          <tr>
+            <td class="font">湖北师范大学版权所有</td>
+            <td class="font">鄂IC备05003319</td>
+          </tr>
+       </table>
+    </div>
+    <!--版权结束-->
+
+</body>
+</html>

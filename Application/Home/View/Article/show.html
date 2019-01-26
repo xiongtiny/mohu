@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$article.title}</title>
+<link href="__PUBLIC__/css/all.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div class="bigBox">
+ 
+  <div id="width">
+  <div class="shoub">中国语文现代化学会</div>
+  <div class="shouc">模糊语言研究会</div>
+	</div>
+</div>
+  <!--导航栏-->
+    <include file="Public/menu" />
+    <!--导航栏结束-->
+        
+    <!--位置-->
+    <table>
+     <tr><td><img src="__PUBLIC__/img/wei.png" /></td><td>当前位置:</td><td class="wei"><a href="/">主页></a></td><td class="wei"><a href="{:U('Class/listByCid/', array('id'=>$class[id]))}">{$class.name}></a></td></tr>
+    </table>
+    
+    <!--位置结束-->
+    <style type="text/css">
+		.word{ width:1200px; margin:0 auto; line-height:40px; }
+    </style>
+	
+     <!--正文内容开始-->
+    <div id="content">
+    	<p style="text-align:center; font-size:24px;">{$article.title}</p>
+    	<p style="text-align:center; font-size:16px;">{$article.auther}</p>
+    	<div class="word">
+    		<?php echo html_entity_decode($article['content']); ?>
+    	</div>
+    	
+    </div>
+    <!--正文内容结束-->
+    
+     <!--版权-->
+    <include file="Public/footer" />
+    <!--版权结束--> 
+</div>
+</body>
+</html>

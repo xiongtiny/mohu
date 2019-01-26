@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.jianjie{
+	background-image:url(../img/jianjie1.png);
+	background-repeat:no-repeat;
+	height:40px;
+	clear:both;}
+.quanjian{ 
+    float:left;
+	width:1000px;
+	font-family:"微软雅黑"; 
+	mvertical-align:top; 
+	font-size:14px; 
+	font-weight:250px; 
+	line-height:30px; 
+	margin-left:20px;
+	}
+.twoQuan{
+	background-color:#E4E4E4;}
+.jsjie{ width:1200px; height:35px; background-color:#F37089; line-height:35px; margin-top:350px; margin-left:-10%;}
+.liti{ font-size:19px; font-weight:600;}
+.imma{ padding-top:7px; float:left;}

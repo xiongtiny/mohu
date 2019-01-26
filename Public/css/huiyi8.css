@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{
+	margin:0 auto;
+	padding:0;
+	width:90%;
+	text-align:left;
+	color:#000;
+	font-family:"微软雅黑";
+	font-size:18px;
+	text-indent:2em;
+	letter-spacing: 1px;
+	line-height:30px;}
+.bottom{
+	widows:300px;
+	height:350px;
+	float:left;
+	text-align:center;
+	margin-right:50px;}

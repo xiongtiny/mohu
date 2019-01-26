@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.taB{
+	float:left;
+	margin-top:50px;
+    }
+.tbB{
+	background-image: url(../img/tab2.png);
+	background-size:cover;
+	margin-left:0;
+	width:800px;
+	height:580px;
+	background-repeat:no-repeat;
+	background-position:left;
+    }
+#font a{
+	color:#F00;
+	font-size:14px;
+	margin-left:280px;}	
+#font a:hover{
+	color:#30C;}
+	
+
+		/*IE浏览器*/
+  .taB span @font-face{
+	font-family:"方正隶变_GBK";
+	src:url('G:\mohu\Fonts') format('embedded-opentype');}
+ .taB span{
+	font-family:"方正隶变_GBK";}
+
+	/*非IE浏览器*/
+  .taB span @font-face{
+	font-family:"方正隶变_GBK";
+	src:url('G:\mohu\Fonts') format('truetype');}
+ .taB span{
+	font-family:"方正隶变_GBK";}
